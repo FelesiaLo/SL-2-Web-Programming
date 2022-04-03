@@ -1,0 +1,58 @@
+*{
+    background-color:#c2f0f7;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="date"], input[type="text"], input[type="password"], input[type="number"]{
+    background-color: white;
+    border: none;
+}
+
+input[type="date"]{
+    width: 153.67px;
+    height: 20px;
+}
+
+textarea{
+    height: 60px;
+    width: 151.67px;
+    background-color: white;
+    border: none;
+}
+
+input[name="fotoProfil"]{
+    width: 166px;
+}
+
+caption{
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: auto;
+}
+
+table{
+    width: 100%;
+    height: auto;
+}
+
+td{
+    height: 40px;
+    vertical-align: top;
+}
+
+input[type="button"]{
+    background-color: #fdd7ac;
+    width: 100px;
+    margin-right: 20px;
+}
+
+input[type="submit"]{
+    background-color: #adf59f;
+    width: 100px;
+}
+
+.buttons{
+    margin-left: 950px;
+}

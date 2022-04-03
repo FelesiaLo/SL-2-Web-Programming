@@ -1,0 +1,36 @@
+*{
+    background-color:rgba(229,237,235,255);
+    justify-content: center;
+}
+
+.header1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    font-size: large;
+}
+
+.header2{
+    font-size: xx-large;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+input{
+    width: 150px;
+    height: 75px;
+}
+
+input[value=Login]{
+    background-color:#99d6ed;
+    margin-right: 20px;
+    border: none;
+    font-size: larger;
+}
+
+input[value=Register]{
+    background-color:#c6ed99;
+    margin-left: 20px;
+    border: none;
+    font-size: larger;
+}

@@ -1,0 +1,111 @@
+*{
+    background-color:#cad1ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+    padding-left: 20px;
+    background-color:#f9ffca;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color:#f9ffca;
+}
+
+.logout{
+    margin-left: 75px;
+    margin-right: 20px;
+    padding-top: 17px;
+    background-color:#f9ffca;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a[id="profile"]{
+    padding-top: 17px;
+}
+
+a, p, .theme, u{
+    background-color:#f9ffca;
+}
+
+.body{
+    text-align: left;
+    margin-top: 100px;
+    font-size: x-large;
+    justify-content: center;
+}
+
+p[id="capt"]{
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    background-color:#cad1ff;
+}
+
+table{
+    width: 100%;
+    height: auto;
+    font-size: medium;
+    margin: 0 0;
+}
+
+td{
+    height: 40px;
+    vertical-align: top;
+}
+
+img{
+    width: 100px;
+    height: 150px;
+}
+
+form{
+    width: 100%;
+    height: auto;
+}
+
+textarea{
+    height: 60px;
+    width: 151.67px;
+    background-color: white;
+    border: none;
+}
+
+input[type="date"]{
+    width: 153.67px;
+    height: 20px;
+}
+
+input[type="button"]{
+    background-color: #fdd7ac;
+    width: 100px;
+    margin-right: 20px;
+}
+
+input[type="submit"]{
+    background-color: #adf59f;
+    width: 100px;
+}
+
+.buttons{
+    margin-left: 530px;
+}
